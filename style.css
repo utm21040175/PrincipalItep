@@ -35,26 +35,30 @@ body {
 #head {
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3%;
 }
 
 #main {
     text-align: center;
-    width: 2500px;
+    width: 100%;
     margin-top: 100px;
     background-color: rgb(255, 255, 255);
 
 }
 
 #leftSide {
-    width: 20%;
-    height: 330px;
+    width: 40%;
+    height: 310px;
     background-color: #d6e7fd;
     float: left;
-    margin-left: 19.5%;
+    margin-left: 20%;
     border-radius: 15px;
     box-shadow: 15px 15px 15px black;
-    padding: 1%;
+    transform: translateY(30px);
+    transform: translateX(150px);
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
 }
 
 #leftSide:hover {
@@ -73,11 +77,10 @@ body {
     height: 30px;
     text-align: center;
     margin-right: 40%;
-    margin-top: 6px;
+    margin-top: 15px;
     border-radius: 10px;
     border-width: 0px;
     background-color: #a7e245;
-
 }
 
 #nextButton:hover {
